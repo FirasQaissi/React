@@ -12,7 +12,7 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import { Footer } from "flowbite-react";
 import { Progress } from "flowbite-react";
 import { Badge, Tooltip } from "flowbite-react";
-import  "./index.css";
+import "./index.css";
 
 function App() {
   return (
@@ -75,7 +75,7 @@ function App() {
           labelProgress
           labelText
         />
-        <Badge className="w-14 font-mono text-center m-auto text-lg absolute top-7  left-20" color="warning">Beta</Badge>
+        <Badge className="w-15 font-mono text-center m-auto text-lg absolute top-7  left-20" color="warning">Beta</Badge>
       </div>
 
       <div className="flex flex-wrap justify-center gap-4 mt-10 mb-10">
@@ -211,8 +211,8 @@ function App() {
 
             <F2 className="w-60 h-40 object-cover rounded-lg shadow-md mt-5" src={FrontendImgs[1].src} />
             <UserFun id={2} CourseName="React" Price="344.9 ILS" Hours={285} email="Office@WSA.com" />
-          <hr className="w-full my-3" />
-    
+            <hr className="w-full my-3" />
+
             <div className="flex flex-row gap-4 "> <FaPhoneAlt />
               <FaTwitter />  <CiFacebook /> <FaLinkedinIn />
             </div>
